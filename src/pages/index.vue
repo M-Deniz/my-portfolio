@@ -6,9 +6,6 @@ defineOptions({
 
 <template>
   <div>
-    <div text-4xl>
-      <div i-carbon-campsite inline-block />
-    </div>
     <p>
       My Portfolio
     </p>
