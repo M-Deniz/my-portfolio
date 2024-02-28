@@ -1,7 +1,7 @@
 <template>
-  <nav flex="~ gap-4" mt-6 justify-center text-xl>
-    <a icon-btn rel="noreferrer" href="https://github.com/M-Deniz" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
-  </nav>
+  <footer max-w-full class="bg-secondary text-xsmall">
+    <div p-5 text-center>
+      Portfolio Website © 2024 by Mustafa Deniz Kamiloglu is licensed under CC BY-NC-SA 4.0
+    </div>
+  </footer>
 </template>
