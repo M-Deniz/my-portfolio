@@ -10,5 +10,9 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
+    TheNavbar: typeof import('./components/TheNavbar.vue')['default']
+    VBlogCard: typeof import('./components/VBlogCard.vue')['default']
+    VIconButton: typeof import('./components/VIconButton.vue')['default']
+    VIconCard: typeof import('./components/VIconCard.vue')['default']
   }
 }
