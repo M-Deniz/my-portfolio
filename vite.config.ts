@@ -104,8 +104,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'DenizKamiloglu',
+        short_name: 'DenizKamiloglu',
         theme_color: '#ffffff',
         icons: [
           {
@@ -157,7 +157,7 @@ export default defineConfig({
       reduceInlineStyles: false,
     },
     onFinished() {
-      generateSitemap()
+      generateSitemap({ hostname: 'https://denizkamiloglu.com' })
     },
   },
 
