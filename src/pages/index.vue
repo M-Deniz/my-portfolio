@@ -16,9 +16,11 @@ defineOptions({
           Jr. Full-Stack Developer
         </p>
 
-        <VIconButton align-icon-left icon="i-carbon-download-study" icon-size="text-xl" class="hero__cv">
-          Download CV
-        </VIconButton>
+        <a href="/mustafa_deniz_kamiloglu_resume.pdf" target="_blank" download>
+          <VIconButton align-icon-left icon="i-carbon-download-study" icon-size="text-xl" class="hero__cv">
+            Download CV
+          </VIconButton>
+        </a>
       </div>
     </div>
 
