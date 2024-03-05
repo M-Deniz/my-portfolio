@@ -24,7 +24,7 @@ defineOptions({
       </div>
     </div>
 
-    <img src="../../public/AvatarAndIcons.svg" class="hero__image" mx-auto max-w-170 w-full>
+    <img src="/AvatarAndIcons.svg" class="hero__image" mx-auto max-w-170 w-full>
   </section>
 
   <section align-items grid mt-5 justify-center>
@@ -33,7 +33,7 @@ defineOptions({
       <span block class="text-xlarge" font-bold>Developer</span>
 
       <template #icon>
-        <img src="/icons/CodeIcon.svg" alt="adem" class="h-[80px] w-[80px]">
+        <img src="/icons/CodeIcon.svg" alt="Development icon" class="h-[80px] w-[80px]">
       </template>
     </VIconCard>
 
@@ -42,7 +42,7 @@ defineOptions({
       <span block class="text-xlarge" font-bold>DevOps</span>
 
       <template #icon>
-        <img src="/icons/DesignIcon.svg" alt="adem" class="h-[80px] w-[80px]">
+        <img src="/icons/DesignIcon.svg" alt="Devops icon" class="h-[80px] w-[80px]">
       </template>
     </VIconCard>
   </section>
